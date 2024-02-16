@@ -1,6 +1,7 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QFormLayout, QLabel, QLineEdit, QTextEdit, QPushButton
 from PyQt5.QtCore import Qt
+from PyQt5.QtGui import QIcon
 
 class StyledGUI(QWidget):
     def __init__(self):
@@ -54,6 +55,7 @@ class StyledGUI(QWidget):
 
         # Set up the main window
         self.setWindowTitle('Palworld Manager')
+        self.setWindowIcon(QIcon("icon.jpg"));
         self.setGeometry(300, 300, 400, 350)  # Increased height
         self.setStyleSheet('background-color: #3198c4; color: white;')
 

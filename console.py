@@ -53,7 +53,7 @@ class StyledGUI(QWidget):
         self.setLayout(layout)
 
         # Set up the main window
-        self.setWindowTitle('Styled GUI')
+        self.setWindowTitle('Palworld Manager')
         self.setGeometry(300, 300, 400, 350)  # Increased height
         self.setStyleSheet('background-color: #3198c4; color: white;')
 
